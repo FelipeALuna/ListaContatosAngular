@@ -6,36 +6,36 @@ Aparência geral:
     ✔ Aplicar geral.css para folha de estilos que será usada no site inteiro. @done(21-08-30 09:44)
     ✔ Visite: @done(21-08-30 09:44)
     ✔ https://sergiomoura.github.io/contatos-html-template/home.html @done(21-08-30 09:44)
-    - https://github.com/sergiomoura/contatos-html-template
-    ☐ Limpe app.component.html
-    ☐ Visite localhost:4200 e verifique se o background já está visível
-    ☐ Incorpore os css externos no index.html
+    ✔ https://github.com/sergiomoura/contatos-html-template @done(21-08-30 10:32)
+    ✔ Limpe app.component.html @done(21-08-30 10:32)
+    ✔ Visite localhost:4200 e verifique se o background já está visível @done(21-08-30 10:32)
+    ✔ Incorpore os css externos no index.html @done(21-08-30 10:32)
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&amp;display=swap" rel="stylesheet">
 
 Criação de Menu:
-    ☐ Criar componentnte components/Menu
-    O conteúdo de menu.component.html dele deve ser o do elemento nav contida em https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
-    ☐ Adicione esse componente ao app.component.html
-    ☐ Dê estilo a ele baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css
-    - *Observe que o link para sair do sistema não está aparecendo corretamente (exit_to_app)*
-    ☐ Importe as fontes do material icon fonts para o seu projeto adicionando a linha de código no index.html
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    ☐ Verifique se o menu aparece corretamente.
+    ✔ Criar componentnte components/Menu @done(21-08-30 10:32)
+    ✔ O conteúdo de menu.component.html dele deve ser o do elemento nav contida em https://github.com/sergiomoura/contatos-html-template/blob/main/home.html @done(21-08-30 10:48)
+    ✔ Dê estilo a ele baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @done(21-08-30 10:48)
+    ✔ Adicione esse componente ao app.component.html @done(21-08-30 10:48)
+    ✔ *Observe que o link para sair do sistema não está aparecendo corretamente (exit_to_app)* @done(21-08-30 10:48)
+    ✔ Importe as fontes do material icon fonts para o seu projeto adicionando a linha de código no index.html @done(21-08-30 10:48)
+    ✔ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> @done(21-08-30 10:48)
+    ✔ Verifique se o menu aparece corretamente. @done(21-08-30 10:48)
 
 Criação de Lista de Contatos:
-    ☐ Criar o componente components/ListaDeContatos
-    O conteúdo de lista-de-contatos.component.html deve ser o main de https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
-    ☐ Adicione esse componente ao app.component.html
-    ☐ Dê o estilo desse componente baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css
-    ☐ Verifique se a lista de contatos aparece corretamente.
+    ✔ Criar o componente components/ListaDeContatos @done(21-08-30 11:00)
+    ✔ O conteúdo de lista-de-contatos.component.html deve ser o main de https://github.com/sergiomoura/contatos-html-template/blob/main/home.html @done(21-08-30 11:00)
+    ✔ Adicione esse componente ao app.component.html @done(21-08-30 11:00)
+    ✔ Dê o estilo desse componente baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @done(21-08-30 11:00)
+    ✔ Verifique se a lista de contatos aparece corretamente. @done(21-08-30 11:00)
 
 Criação de Componente contato:
-    ☐ Criar componente components/Contato
-    ☐ Utilizar como componente com componente uma das sections contidas na main do lista-de-contatos.component.html
-    ☐ Utilizar o css apropriado para esse componente.
-    ☐ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato
+    ✔ Criar componente components/Contato @done(21-08-30 11:28)
+    ✔ Utilizar como componente com componente uma das sections contidas na main do lista-de-contatos.component.html @done(21-08-30 11:28)
+    ✔ Utilizar o css apropriado para esse componente. @done(21-08-30 11:28)
+    ✔ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato @done(21-08-30 11:28)
 
 Fazendo que os contatos sejam mais dinâmicos:
     ☐ Crie uma pasta model dentro da pastas src/app
