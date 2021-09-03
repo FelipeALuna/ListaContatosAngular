@@ -73,7 +73,6 @@ export class ContatoService {
     let contatos = this.getContatos();
     contatos.push(c)
     window.localStorage.setItem(this.chave,JSON.stringify(contatos));
-    BASE_DE_CONTATOS.push(c);
   }
 
 }
