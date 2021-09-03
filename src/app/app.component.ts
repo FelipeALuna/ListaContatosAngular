@@ -5,18 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
 export class AppComponent {
-  mostrandoModal =false;
   title = 'contatos';
-  funcao(){
-    console.log('eu te escutei meu filho');
+  mostrandoModal = false;
+
+  mostrarModal(){
     this.mostrandoModal = true;
   }
-  ocultarModal(){
+
+  esconderModal(){
     this.mostrandoModal = false;
   }
-
 }
-
-
