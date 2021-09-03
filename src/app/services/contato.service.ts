@@ -53,15 +53,26 @@ const BASE_DE_CONTATOS:Contato[] = [
   providedIn: 'root'
 })
 export class ContatoService {
-
+  private readonly chave:string = "CONTATOS";
+  
   constructor() { }
 
   getContatos():Contato[] {
-    console.log(Math.random())
-    return BASE_DE_CONTATOS;
+    let dados = window.localStorage.getItem(this.chave);
+    if(dados){
+      let contatos:Contato[] = JSON.parse(dados);
+      return contatos;
+    }else{
+      window.localStorage.setItem(this.chave,"[]")
+      
+      return [];
+    }
   }
 
   addContato(c:Contato): void {
+    let contatos = this.getContatos();
+    contatos.push(c)
+    window.localStorage.setItem(this.chave,JSON.stringify(contatos));
     BASE_DE_CONTATOS.push(c);
   }
 
